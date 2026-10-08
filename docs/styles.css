@@ -150,6 +150,19 @@ h2 { font-size: 1.8rem; font-weight: 700; line-height: 1.2; letter-spacing: -.01
   margin: calc(var(--badge-h) * -.245) calc(var(--badge-h) * -.25);
 }
 
+/* Placeholder shown instead of a store badge when a game isn't on that store yet */
+.coming-soon {
+  display: inline-flex;
+  align-items: center;
+  height: var(--badge-h);
+  padding: 0 16px;
+  border: 1px dashed var(--muted);
+  border-radius: calc(var(--badge-h) * .16);
+  color: var(--muted);
+  font-size: .9rem;
+  font-weight: 500;
+}
+
 /* ---------- About ---------- */
 .about {
   border-top: 1px solid var(--line);
